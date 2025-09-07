@@ -1,0 +1,94 @@
+{
+  "name": "image-for-me-dear-ai",
+  "version": "1.0.0",
+  "description": "MCP server for AI-powered image generation with ChatGPT and HuggingFace integration",
+  "main": "dist/server.js",
+  "type": "module",
+  "bin": {
+    "image-for-me-dear-ai": "./dist/server.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/server.js",
+    "install-providers": "node dist/scripts/install.js",
+    "lint": "eslint src/**/*.ts",
+    "lint:fix": "eslint src/**/*.ts --fix",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "clean": "rm -rf dist",
+    "prebuild": "npm run clean",
+    "postinstall": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "ai",
+    "image-generation",
+    "chatgpt",
+    "huggingface",
+    "dall-e",
+    "stable-diffusion",
+    "logo-generation"
+  ],
+  "author": {
+    "name": "Marco",
+    "email": "marco@example.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.6.0",
+    "axios": "^1.6.2",
+    "openai": "^4.65.0",
+    "@huggingface/inference": "^2.8.0",
+    "form-data": "^4.0.0",
+    "inquirer": "^10.0.0",
+    "chalk": "^5.3.0",
+    "ora": "^8.0.1",
+    "fs-extra": "^11.2.0",
+    "sharp": "^0.33.0",
+    "node-cache": "^5.1.2",
+    "zod": "^3.22.4",
+    "dotenv": "^16.3.1",
+    "uuid": "^9.0.1",
+    "mime-types": "^2.1.35",
+    "jimp": "^0.22.10"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/fs-extra": "^11.0.4",
+    "@types/uuid": "^9.0.7",
+    "@types/mime-types": "^2.1.4",
+    "@types/inquirer": "^9.0.7",
+    "@typescript-eslint/eslint-plugin": "^6.13.0",
+    "@typescript-eslint/parser": "^6.13.0",
+    "eslint": "^8.54.0",
+    "typescript": "^5.3.0",
+    "jest": "^29.7.0",
+    "@types/jest": "^29.5.8",
+    "ts-jest": "^29.1.1",
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marco-m-mcp/image-for-me-dear-ai.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marco-m-mcp/image-for-me-dear-ai/issues"
+  },
+  "homepage": "https://github.com/marco-m-mcp/image-for-me-dear-ai#readme",
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE",
+    ".env.example"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
