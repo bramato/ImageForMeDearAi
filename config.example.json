@@ -1,0 +1,31 @@
+{
+  "providers": {
+    "chatgpt": {
+      "enabled": false,
+      "apiKey": "your-openai-api-key",
+      "model": "dall-e-3",
+      "timeout": 30000
+    },
+    "huggingface": {
+      "enabled": false,
+      "apiKey": "your-huggingface-api-key",
+      "model": "stabilityai/stable-diffusion-xl-base-1.0",
+      "timeout": 30000
+    }
+  },
+  "cache": {
+    "enabled": true,
+    "ttl": 3600000,
+    "maxSize": 100,
+    "directory": "./cache"
+  },
+  "server": {
+    "name": "image-for-me-dear-ai",
+    "version": "1.0.0"
+  },
+  "output": {
+    "directory": "./generated-images",
+    "format": "png",
+    "naming": "{{timestamp}}-{{hash}}"
+  }
+}

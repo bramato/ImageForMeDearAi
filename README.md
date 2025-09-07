@@ -74,7 +74,22 @@ image-for-me-dear-ai
    - Provider selection (ChatGPT/HuggingFace)
    - API key configuration
    - Model selection
-   - Cache and output settings
+
+### 🤖 AI Editor Integration
+
+**Quick Setup Guides for Popular AI Code Editors:**
+
+| Editor | Setup Guide | Features |
+|--------|-------------|----------|
+| 🎯 **Cursor** | [📋 Cursor Setup Guide](./CURSOR_SETUP.md) | AI chat integration, workflow automation |
+| 🧠 **Claude Code** | [📋 Claude Code Setup Guide](./CLAUDE_CODE_SETUP.md) | MCP protocol, advanced configuration |
+
+**What you get:**
+- ✅ Direct AI chat integration
+- ✅ Image generation within your editor  
+- ✅ Real-time image analysis
+- ✅ Logo creation for projects
+- ✅ Documentation image generation
 
 3. **Build the server**:
    ```bash
