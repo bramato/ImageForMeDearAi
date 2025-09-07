@@ -1,30 +1,30 @@
-# <� Image Generation MCP Server
+# 🎨 Image Generation MCP Server
 
 A powerful **Model Context Protocol (MCP) server** that provides AI-powered image generation, analysis, and manipulation tools. Built with TypeScript and featuring dual provider support for both ChatGPT/DALL-E and HuggingFace models.
 
-## ( Features
+## ✨ Features
 
-### =� Image Generation
+### 🖼️ Image Generation
 - **Multiple AI Providers**: ChatGPT/DALL-E and HuggingFace/Stable Diffusion
 - **15+ Artistic Styles**: Realistic, cartoon, anime, oil-painting, watercolor, cyberpunk, and more
 - **Flexible Dimensions**: Custom width/height with intelligent aspect ratio handling
 - **Quality Control**: Standard and HD quality options
 - **Format Support**: PNG, JPEG, WebP output formats
 
-### <� Logo Generation
+### 🏷️ Logo Generation
 - **Professional Quality**: Transparent PNG logos perfect for branding
 - **Logo Types**: Text-only, icon-only, or combination logos
 - **Style Options**: Minimalist, modern, vintage, professional, creative, elegant
 - **Color Control**: Custom primary/secondary colors and backgrounds
 - **Industry Optimization**: Tailored designs for different business sectors
 
-### = Image Analysis
+### 🔍 Image Analysis
 - **Smart Description**: AI-powered image description with multiple detail levels
 - **Intelligent Tagging**: Automatic object and scene recognition
 - **Category Organization**: Structured tags by objects, people, places, activities
 - **Confidence Scoring**: Reliability metrics for all analysis results
 
-### � Performance & Reliability
+### ⚡ Performance & Reliability
 - **Intelligent Caching**: Fast repeated requests with configurable cache settings
 - **Fallback System**: Automatic provider switching for high availability
 - **Error Handling**: Comprehensive error management with user-friendly messages
@@ -48,7 +48,7 @@ image-for-me-dear-ai
 1. **Clone and install dependencies**:
    ```bash
    git clone https://github.com/bramato/ImageForMeDearAi.git
-   cd image-for-me-dear-ai
+   cd ImageForMeDearAi
    npm install
    ```
 
@@ -94,7 +94,7 @@ CACHE_ENABLED=true
 CACHE_MAX_SIZE=100
 ```
 
-## =� Available Tools
+## 🛠️ Available Tools
 
 ### 1. `generate_image`
 
@@ -186,7 +186,7 @@ Extract tags and metadata from images.
 }
 ```
 
-## <� Available Styles
+## 🎨 Available Styles
 
 Choose from 15+ artistic styles for image generation:
 
@@ -208,7 +208,7 @@ Choose from 15+ artistic styles for image generation:
 | `photographic` | Professional photography | High-quality, realistic images |
 | `abstract` | Non-representational art | Artistic, experimental designs |
 
-## =' Configuration
+## ⚙️ Configuration
 
 ### Provider Configuration
 
@@ -255,7 +255,7 @@ Customize where and how images are saved:
 }
 ```
 
-## <� Architecture
+## 🏗️ Architecture
 
 ### Provider Pattern
 - **Abstraction Layer**: Unified interface for different AI providers
@@ -272,7 +272,7 @@ Customize where and how images are saved:
 - **Retry Logic**: Intelligent retries with exponential backoff
 - **Logging**: Detailed error tracking and debugging information
 
-## =� Monitoring & Debugging
+## 📊 Monitoring & Debugging
 
 ### Server Status
 Check server health and provider availability:
@@ -294,7 +294,7 @@ All errors are logged with:
 - User-friendly error messages
 - Request tracing for debugging
 
-## = Security & Best Practices
+## 🔒 Security & Best Practices
 
 ### API Key Management
 - Store keys in environment variables
@@ -311,7 +311,7 @@ All errors are logged with:
 - Automatic retry with backoff
 - Queue management for high-volume usage
 
-## > Contributing
+## 🤝 Contributing
 
 We welcome contributions! Please read our contributing guidelines and:
 
@@ -320,11 +320,11 @@ We welcome contributions! Please read our contributing guidelines and:
 3. Add tests for new functionality
 4. Submit a pull request
 
-## =� License
+## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## <� Support
+## 🆘 Support
 
 ### Common Issues
 
@@ -345,12 +345,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### Getting Help
 
-- =� Email: support@example.com
-- = Issues: GitHub Issues
-- =� Discussions: GitHub Discussions
-- =� Documentation: Wiki
+- 📧 **Issues**: [GitHub Issues](https://github.com/bramato/ImageForMeDearAi/issues)
+- 💬 **Discussions**: [GitHub Discussions](https://github.com/bramato/ImageForMeDearAi/discussions)
+- 📚 **Documentation**: [Project Wiki](https://github.com/bramato/ImageForMeDearAi/wiki)
 
-## <� Roadmap
+## 🗺️ Roadmap
 
 - [ ] Additional AI providers (Midjourney, Stable Diffusion API)
 - [ ] Advanced image editing capabilities
@@ -363,4 +362,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Made with d for the Model Context Protocol ecosystem.
+Made with ❤️ for the Model Context Protocol ecosystem.
