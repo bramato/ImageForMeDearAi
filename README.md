@@ -1,17 +1,17 @@
-# <¨ Image Generation MCP Server
+# <ï¿½ Image Generation MCP Server
 
 A powerful **Model Context Protocol (MCP) server** that provides AI-powered image generation, analysis, and manipulation tools. Built with TypeScript and featuring dual provider support for both ChatGPT/DALL-E and HuggingFace models.
 
 ## ( Features
 
-### =¼ Image Generation
+### =ï¿½ Image Generation
 - **Multiple AI Providers**: ChatGPT/DALL-E and HuggingFace/Stable Diffusion
 - **15+ Artistic Styles**: Realistic, cartoon, anime, oil-painting, watercolor, cyberpunk, and more
 - **Flexible Dimensions**: Custom width/height with intelligent aspect ratio handling
 - **Quality Control**: Standard and HD quality options
 - **Format Support**: PNG, JPEG, WebP output formats
 
-### <â Logo Generation
+### <ï¿½ Logo Generation
 - **Professional Quality**: Transparent PNG logos perfect for branding
 - **Logo Types**: Text-only, icon-only, or combination logos
 - **Style Options**: Minimalist, modern, vintage, professional, creative, elegant
@@ -24,19 +24,30 @@ A powerful **Model Context Protocol (MCP) server** that provides AI-powered imag
 - **Category Organization**: Structured tags by objects, people, places, activities
 - **Confidence Scoring**: Reliability metrics for all analysis results
 
-### ¡ Performance & Reliability
+### ï¿½ Performance & Reliability
 - **Intelligent Caching**: Fast repeated requests with configurable cache settings
 - **Fallback System**: Automatic provider switching for high availability
 - **Error Handling**: Comprehensive error management with user-friendly messages
 - **Retry Logic**: Automatic retries with exponential backoff
 
-## =€ Quick Start
+## ðŸš€ Quick Start
 
-### Installation
+### NPM Installation (Recommended)
+
+```bash
+npm install -g image-for-me-dear-ai
+```
+
+Then run the setup:
+```bash
+image-for-me-dear-ai
+```
+
+### Development Installation
 
 1. **Clone and install dependencies**:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/bramato/image-for-me-dear-ai.git
    cd image-for-me-dear-ai
    npm install
    ```
@@ -83,7 +94,7 @@ CACHE_ENABLED=true
 CACHE_MAX_SIZE=100
 ```
 
-## =à Available Tools
+## =ï¿½ Available Tools
 
 ### 1. `generate_image`
 
@@ -175,7 +186,7 @@ Extract tags and metadata from images.
 }
 ```
 
-## <¨ Available Styles
+## <ï¿½ Available Styles
 
 Choose from 15+ artistic styles for image generation:
 
@@ -244,7 +255,7 @@ Customize where and how images are saved:
 }
 ```
 
-## <× Architecture
+## <ï¿½ Architecture
 
 ### Provider Pattern
 - **Abstraction Layer**: Unified interface for different AI providers
@@ -261,7 +272,7 @@ Customize where and how images are saved:
 - **Retry Logic**: Intelligent retries with exponential backoff
 - **Logging**: Detailed error tracking and debugging information
 
-## =Ê Monitoring & Debugging
+## =ï¿½ Monitoring & Debugging
 
 ### Server Status
 Check server health and provider availability:
@@ -309,11 +320,11 @@ We welcome contributions! Please read our contributing guidelines and:
 3. Add tests for new functionality
 4. Submit a pull request
 
-## =Ü License
+## =ï¿½ License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## <˜ Support
+## <ï¿½ Support
 
 ### Common Issues
 
@@ -334,12 +345,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### Getting Help
 
-- =ç Email: support@example.com
+- =ï¿½ Email: support@example.com
 - = Issues: GitHub Issues
-- =¬ Discussions: GitHub Discussions
-- =Ö Documentation: Wiki
+- =ï¿½ Discussions: GitHub Discussions
+- =ï¿½ Documentation: Wiki
 
-## <¯ Roadmap
+## <ï¿½ Roadmap
 
 - [ ] Additional AI providers (Midjourney, Stable Diffusion API)
 - [ ] Advanced image editing capabilities
