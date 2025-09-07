@@ -73,12 +73,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bramato/image-for-me-dear-ai.git"
+    "url": "git+https://github.com/bramato/ImageForMeDearAi.git"
   },
   "bugs": {
-    "url": "https://github.com/bramato/image-for-me-dear-ai/issues"
+    "url": "https://github.com/bramato/ImageForMeDearAi/issues"
   },
-  "homepage": "https://github.com/bramato/image-for-me-dear-ai#readme",
+  "homepage": "https://github.com/bramato/ImageForMeDearAi#readme",
   "peerDependencies": {
     "typescript": "^5.0.0"
   },

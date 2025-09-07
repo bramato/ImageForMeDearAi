@@ -47,7 +47,7 @@ image-for-me-dear-ai
 
 1. **Clone and install dependencies**:
    ```bash
-   git clone https://github.com/bramato/image-for-me-dear-ai.git
+   git clone https://github.com/bramato/ImageForMeDearAi.git
    cd image-for-me-dear-ai
    npm install
    ```
