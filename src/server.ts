@@ -254,9 +254,9 @@ class ImageGenerationServer {
 }
 
 /**
- * Main server startup function
+ * Start server function for CLI usage
  */
-async function main(): Promise<void> {
+export async function startServer(): Promise<void> {
   try {
     const server = new ImageGenerationServer();
     
@@ -270,6 +270,13 @@ async function main(): Promise<void> {
     console.error('❌ Server startup failed:', error);
     process.exit(1);
   }
+}
+
+/**
+ * Main server startup function
+ */
+async function main(): Promise<void> {
+  await startServer();
 }
 
 /**

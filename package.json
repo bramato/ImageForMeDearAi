@@ -1,11 +1,11 @@
 {
   "name": "image-for-me-dear-ai",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "MCP server for AI-powered image generation with ChatGPT and HuggingFace integration",
   "main": "dist/server.js",
   "type": "module",
   "bin": {
-    "image-for-me-dear-ai": "./dist/server.js"
+    "image-for-me-dear-ai": "dist/bin/image-for-me-dear-ai.js"
   },
   "scripts": {
     "build": "tsc",
